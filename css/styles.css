@@ -225,6 +225,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 .section-text {
   font-size: 16px;
@@ -233,6 +234,17 @@ body {
   min-width: 264px;
   margin: 0;
 }
+.sections-icon-list {
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--background-fone);
+  padding: 24px 100px;
+}
+.sections-icon {
+  padding: 24px 100px;
+}
+
 /*----------------  /section style */
 /* ---------------- section-2 style */
 .section-meta {
@@ -333,6 +345,51 @@ body {
   fill: var(--hero-text-color);
 }
 /* ---------------- /section-3 style */
+/* ---------------- section-4 style */
+.customers {
+}
+.customers-link {
+  fill: #c1c7cc;
+  display: flex;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+.customers-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--title-text-color);
+  padding-top: 129px;
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.customers-list-icon {
+  padding-bottom: 120px;
+}
+.customers-icon:hover,
+.customers-icon:focus,
+.customers-link:hover,
+.customers-link:focus {
+  fill: var(--portfolio-btn-color);
+  background-color: ;
+}
+/* ---------------- /section-4 style */
 /* ---------------- footer section  */
 .footer {
   background-color: var(--title-text-color);
