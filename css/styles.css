@@ -145,6 +145,9 @@ body {
     ),
     url(../images/people-office-bg.jpg);
   background-size: cover;
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .visually-hidden {
   position: absolute;
@@ -198,6 +201,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: none;
 }
 /* ---------------- /hero section */
 /* ---------------- section style */
@@ -346,16 +350,17 @@ body {
 }
 /* ---------------- /section-3 style */
 /* ---------------- section-4 style */
-.customers {
-}
+
 .customers-link {
-  fill: #c1c7cc;
   display: flex;
   width: 168px;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   padding: 16px 32px;
+}
+.customers-icon {
+  fill: #d9d9d9;
 }
 .customers-title {
   font-family: "Roboto";
@@ -369,7 +374,7 @@ body {
   text-transform: capitalize;
 
   color: var(--title-text-color);
-  padding-top: 129px;
+
   margin-bottom: 72px;
 }
 .customers-list {
@@ -379,9 +384,11 @@ body {
   padding: 0px;
   gap: 24px;
 }
-.customers-list-icon {
+.customers {
+  padding-top: 130px;
   padding-bottom: 120px;
 }
+
 .customers-icon:hover,
 .customers-icon:focus,
 .customers-link:hover,
